@@ -1,0 +1,171 @@
+html{
+  font-size: 31.25%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    min-height: 100vh;
+    background-color: #232531;
+    
+}
+.title{
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  padding: 2em  0;
+}
+.title-small{
+  font-size: 7  rem;
+}
+
+.apply-box{
+    max-width: 80%;
+    margin: 0 auto 10rem;
+    border-radius: 10px;
+    padding: 3rem;
+    background-color: rgba(0, 0, 0, 0.749);
+  
+    
+}
+
+
+
+.form-container{
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 1rem auto;
+    
+}
+
+.form-control{
+  display: flex;
+  flex-direction: column;
+  color: white
+}
+.form-control label{
+  font-size: 3rem;
+  padding: 0 0 0 .5em;
+}
+
+.form-control input{
+  height: 30px;
+  font-size: 2.5rem;
+  padding: .5em;
+  background-color: white;
+  border: 1px solid white;
+}
+
+.form-control textarea{
+  height: 70px;
+  font-size: 3rem;
+  padding: .7em;
+  background-color: white;
+  border: 1px solid white;
+
+}
+.interested-field{
+  display: flex;
+  flex-direction: column;
+  color: white;
+
+}
+.interested-option{
+  padding: 15px 5px 5px;
+}
+.interested-field p{
+  font-size: 3.2rem;
+}
+
+.interested-field label{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  font-size: 3rem;
+  gap: 1rem;
+}
+
+.interested-field label input{
+  height: 15px;
+  width: 15px;
+
+}
+
+button{
+  font-size: 3rem;
+  padding: .5em;
+  background-color: white;
+  border: none;
+  border-radius: 2rem;
+}
+
+button:hover{
+  cursor: pointer;
+  opacity: .8;
+}
+
+@media (min-width: 640px){
+  html{
+    font-size: 46.825%
+  }
+  .apply-box{
+    max-width: 60%;
+  }
+  .form-control input{
+    height: 50px;
+  
+  }
+
+  .form-control select{
+    height: 50px;
+    font-size: 3rem;
+  }
+
+  .form-control textarea{
+    height: 100px;
+  }
+
+  .interested-field label input{
+    height: 25px;
+    width: 25px;
+  
+  }
+}
+
+@media (min-width:840px){
+  html{
+    font-size: 62.5%
+  }
+
+  .apply-box{
+    max-width: 60%
+  }
+
+  .form-control input{
+    height: 60px;
+  }
+
+  .form-control select{
+    height: 60px;
+  }
+
+  .form-control textarea{
+    height: 120px;
+  }
+
+  .interested-field label input{
+    height: 30px;
+    width: 30px;
+  
+  }
+}
